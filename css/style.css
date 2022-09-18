@@ -92,7 +92,6 @@ main {
 .imgHome {
     width: 45%;
     height: auto;
-    float: right;
 }
 
 .carousel {
@@ -119,4 +118,9 @@ h4 {
 .materiais p {
     color: #f24150;
     padding: 20px 0px 0px 50px;
+}
+
+.carousel2 {
+    width: 100%;
+    height: auto;
 }
