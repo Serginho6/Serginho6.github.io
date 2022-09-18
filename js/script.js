@@ -11,3 +11,10 @@ $('.carousel2').slick({
   autoplay: true,
   autoplaySpeed: 2000,
 });
+
+$('.carousel3').slick({
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
