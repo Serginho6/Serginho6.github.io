@@ -7,7 +7,7 @@
 /* Header */
 
 header {
-    padding: 20px;
+    padding: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -45,20 +45,33 @@ main {
 
 /* Introdução */
 
-.introducao {
-    width: 40%;
-    padding: 0px 20px 0px 20px;
-    display: inline-block;
+.home {
+    display: flex;
+    justify-content: space-between;
 }
 
-.introducao h1 {
+.intro {
+    width: 60%;
+    padding: 20px 30px 0px 20px;
+}
+
+.imgHome {
+    width: 80%;
+    height: auto;
+    margin-left: 150px;
+}
+
+.intro h1 {
     font-size: 46px;
     font-weight: 600;
     line-height: 50px;
+    padding: 0px 0px 30px;
 }
 
-.introducao p {
+.intro p {
+    width: 80%;
     font-size: 15px;
+    line-height: 1.5em;
     margin: 0px 0px 50px 0px;
 }
 
@@ -98,17 +111,15 @@ main {
     transition: 0.5s;
 }
 
-.imgHome {
-    width: 45%;
-    height: auto;
-}
-
 .carousel {
-    padding: 30px;
+    padding: 0px 150px 0px 150px;
 }
 
 .carousel img {
-    padding: 15px;
+    align-items: center;
+    padding: 20px;
+    height: auto;
+    max-width: 100%;
 }
 
 h4 {
