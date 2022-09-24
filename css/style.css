@@ -8,7 +8,10 @@
 
 header {
     padding: 20px;
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -17,16 +20,21 @@ header {
     margin-right: 300px;
 }
 
+header a {
+    text-decoration: none;
+    color: #1F2F3F;
+}
+
+header a:hover {
+    color: #f24150;
+}
+
 nav li {
     font-size: 16px;
     font-weight: 500;
     display: inline;
     padding: 0px 30px 0px 30px;
     list-style: none;
-}
-
-nav li:hover {
-    color: #f24150;
 }
 
 /* Main */
