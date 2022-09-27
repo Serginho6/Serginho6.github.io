@@ -40,20 +40,34 @@ nav li {
 /* intro */
 
 .home {
-    display: flex;
+    max-width: 1200px;
+    margin: auto auto;
+
+    /* display: flex;
     justify-content: space-between;
-    margin: 0px 0px 0px 60px;
+    margin: 0px 0px 0px 60px; */
 }
 
 .intro {
-    width: 60%;
-    padding: 20px 30px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+
+    /* width: 60%;
+    padding: 20px 30px 0px 20px; */
+}
+
+.introText {
+    max-width: 50%;
+}
+
+.introImg {
+    max-width: 50%;
+    display: flex;
+    justify-content: right;
 }
 
 .imgHome {
-    width: 80%;
-    height: auto;
-    margin-left: 150px;
+    width: 90%;
 }
 
 .intro h1 {
@@ -154,6 +168,8 @@ h4 {
     background: #1F2F3F;
     color: white;
 }
+
+
 
 /* badges */
 
