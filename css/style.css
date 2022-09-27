@@ -4,7 +4,7 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-/* Header */
+/* header */
 
 header {
     padding: 30px;
@@ -37,7 +37,7 @@ nav li {
     list-style: none;
 }
 
-/* Introdução */
+/* intro */
 
 .home {
     display: flex;
@@ -123,10 +123,12 @@ h4 {
     padding: 0px 0px 100px;
 }
 
-/* Materiais Híbrido */
+/* materials */
 
 .materials {
     background: white;
+    font-size: 42px;
+    font-weight: 600;
     padding: 60px 20px 60px 80px ;
     display: flex;
     align-items: center;
@@ -134,6 +136,8 @@ h4 {
 
 .materials p {
     color: #f24150;
+    font-size: 15px;
+    font-weight: 400;
     padding: 20px 0px 0px 50px;
 }
 
@@ -144,7 +148,19 @@ h4 {
     padding: 0px 0px 100px;
 }
 
+/* optimize */
+
+.optimize {
+    background: #1F2F3F;
+    color: white;
+}
+
+/* badges */
+
 .carousel3 {
     width: 100%;
     height: auto;
 }
+
+/* footer */
+
