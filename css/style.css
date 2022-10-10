@@ -210,6 +210,64 @@ h4 {
     padding: 15px 120px 0 120px;
 }
 
+.media {
+    display: flex;
+    padding: 50px 80px;
+    justify-content: space-between;
+}
+
+.media h2 {
+    width: 40%;
+    font-size: 24px;
+}
+
+.services-text {
+    padding: 30px 80px;
+    width: 60%;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+
+.services-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px 100px 80px;
+}
+
+.services-links div {
+    width: 23%;
+    background: #f24150;
+    padding: 60px 50px;
+}
+
+.services-links h1 {
+    color: #1F2F3F;
+    font-family: "Space Grotesk", Sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.1em;
+}
+
+.services-links p {
+    font-family: "Space Grotesk", Sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 1.6em;
+    padding: 30px 0px;
+}
+
+.services-links button {
+    background: #1F2F3F;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-family: "Space Grotesk", Sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    border-style: none;
+}
+
 /* badges */
 
 .carousel3 {
