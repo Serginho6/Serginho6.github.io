@@ -268,6 +268,44 @@ h4 {
     border-style: none;
 }
 
+/* tecnology */
+
+.tecnology {
+    display: flex;
+    padding: 80px;
+}
+
+.tecnology-flip {
+    width: 55%;
+}
+
+.tecnology-flip img {
+    width: 30%;
+    height: auto;
+    padding: 50px;
+}
+
+.adobe {
+    background: #ff9100;
+}
+
+.google {
+    background: #068be3;
+}
+
+.meta {
+    background: #54595F;
+}
+
+.vtex {
+    background: rgb(238, 44, 92);
+}
+
+.tecnology-text {
+    width: 45%;
+    padding: 50px;
+}
+
 /* badges */
 
 .carousel3 {
