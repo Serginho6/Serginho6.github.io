@@ -290,7 +290,7 @@ h4 {
 
 .tecnology {
     display: flex;
-    padding: 80px;
+    padding: 60px;
 }
 
 .tecnology-flip {
@@ -321,7 +321,23 @@ h4 {
 
 .tecnology-text {
     width: 45%;
-    padding: 50px;
+    padding: 0px 0px 0px 80px;
+}
+
+.tecnology-text h1 {
+    font-family: "Space Grotesk", Sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.2em;
+    letter-spacing: -0.7px;
+}
+
+.tecnology-text p {
+    font-family: "Space Grotesk", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5em;
+    padding: 30px 0px;
 }
 
 /* badges */
