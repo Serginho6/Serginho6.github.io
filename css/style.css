@@ -288,6 +288,10 @@ h4 {
 
 /* tecnology */
 
+#section-technology {
+    background: white;
+}
+
 .tecnology {
     display: flex;
     padding: 60px;
@@ -340,7 +344,16 @@ h4 {
     padding: 30px 0px;
 }
 
+.tecnology a {
+    text-decoration: none;
+    color: #f24150;
+}
+
 /* explore */
+
+#section-explore {
+    padding: 80px;
+}
 
 .explore h1 {
     color: #1F2F3F;
@@ -348,7 +361,7 @@ h4 {
     font-size: 42px;
     font-weight: 600;
     letter-spacing: -0.7px;
-    padding: 40px 0px 40px;
+    padding: 0px 0px 40px;
 }
 
 .explore p {
@@ -364,7 +377,67 @@ h4 {
 }
 
 .list img {
-    max-width: 100%;
+    max-width: 95%;
+}
+
+.list a {
+    text-decoration: none;
+}
+
+.list h2 {
+    font-family: "Space Grotesk", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #f24150;
+    padding: 30px;
+    line-height: 1.5em;
+}
+
+.list h3 {
+    font-family: "Space Grotesk", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    color: #F24150;
+    padding: 20px;
+}
+
+.list h4 {
+    font-family: "Space Grotesk", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    color: #1F2F3F;
+    padding: 20px;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #DFDFDF;
+    line-height: 1.5em;
+}
+
+/* team */
+
+#section-team {
+    background: #f24150;
+    padding: 80px;
+}
+
+.team {
+    display: flex;
+    color: white;
+}
+
+.team h1 {
+    font-family: "Space Grotesk", Sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: -0.7px;
+}
+
+.team a {
+    text-decoration: none;
+    color: white;
 }
 
 /* badges */
